@@ -1,0 +1,1 @@
+../../arm-kobo-linux-gnueabihf/sysroot/lib/libstdc++.so.6.0.29-gdb.py
