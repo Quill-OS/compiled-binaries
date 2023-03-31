@@ -129,7 +129,7 @@ MULTIARCH=	arm-linux-gnueabihf
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"arm-linux-gnueabihf\"
 
 # Install prefix for architecture-independent files
-prefix=		/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+prefix=		/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -217,7 +217,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 'CONFIG_SITE=config.site' '--prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/' '--host=arm-kobo-linux-gnueabihf' '--build=armv7l' '--disable-ipv6' '--enable-optimizations' 'build_alias=armv7l' 'host_alias=arm-kobo-linux-gnueabihf'
+CONFIG_ARGS=	 'CONFIG_SITE=config.site' '--prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/' '--host=arm-kobo-linux-gnueabihf' '--build=armv7l' '--disable-ipv6' '--enable-optimizations' 'build_alias=armv7l' 'host_alias=arm-kobo-linux-gnueabihf'
 
 
 # Subdirectories with code

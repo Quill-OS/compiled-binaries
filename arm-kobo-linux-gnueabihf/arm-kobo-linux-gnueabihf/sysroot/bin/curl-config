@@ -23,7 +23,7 @@
 #
 ###########################################################################
 
-prefix="/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
+prefix="/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot"
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -182,7 +182,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--host=arm-kobo-linux-gnueabihf' '--with-openssl' '--prefix=/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/' 'host_alias=arm-kobo-linux-gnueabihf'"
+        echo " '--host=arm-kobo-linux-gnueabihf' '--with-openssl' '--prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/' 'host_alias=arm-kobo-linux-gnueabihf'"
         ;;
 
     *)

@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/share/gcc-11.2.0/python'
-libdir = '/home/nicolas/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/lib'
+pythondir = '/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/share/gcc-11.2.0/python'
+libdir = '/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't
