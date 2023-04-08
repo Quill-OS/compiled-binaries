@@ -1,0 +1,11 @@
+prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+exec_prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot
+libdir=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib
+includedir=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 28
+Libs: -L${libdir} -lkmod
+Libs.private:   
+Cflags: -I${includedir}

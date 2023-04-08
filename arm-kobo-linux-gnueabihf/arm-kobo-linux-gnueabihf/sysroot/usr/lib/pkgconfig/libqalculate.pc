@@ -1,0 +1,12 @@
+prefix=/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libqalculate
+Description: libqalculate
+Version: 4.3.0
+Libs.private: -lcurl     -lgmp -lmpfr -lpthread
+Requires.private: libxml-2.0 >= 2.3.8
+Libs: -L${libdir} -lqalculate
+Cflags:   -I${includedir}
