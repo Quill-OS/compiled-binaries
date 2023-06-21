@@ -24,3 +24,4 @@ notes:
 - examples are enabled, look here: https://forum.qt.io/topic/84247/qt5linguisttoolsconfig-cmake-doesn-t-exist/7 - it doesn't work anyway, but just to be sure
 - more Qml / Qt Quick enabled
 - qt multimedia for RSSGuard
+- there is also qvirtualkeyboard compiled - I wasn't able to run it, but if someone has better skills, then maybe ~Szybet
