@@ -6,6 +6,7 @@
 #define QT_FEATURE_debug_and_release -1
 #define QT_FEATURE_simulator_and_device -1
 #define QT_FEATURE_build_all -1
+#define QT_BUILD_INTERNAL true
 #define QT_FEATURE_c__11 1
 #define QT_FEATURE_c__14 1
 #define QT_FEATURE_c__17 1
@@ -16,7 +17,6 @@
 #define QT_FEATURE_thread 1
 #define QT_FEATURE_future 1
 #define QT_FEATURE_concurrent 1
-#define QT_NO_DBUS 
 #define QT_FEATURE_pkg_config 1
 #define QT_FEATURE_force_asserts -1
 #define QT_LARGEFILE_SUPPORT 64

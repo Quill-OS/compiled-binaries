@@ -1,4 +1,4 @@
-prefix=/home/build/inkbox/compiled-binaries/qt-bin/qt-linux-5.15.2-kobo
+prefix=/home/build/inkbox/compiled-binaries/qt-bin
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include

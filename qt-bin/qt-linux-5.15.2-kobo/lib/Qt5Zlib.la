@@ -25,4 +25,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='=/home/build/inkbox/compiled-binaries/qt-bin/qt-linux-5.15.2-kobo/lib'
+libdir='=/home/build/inkbox/compiled-binaries/qt-bin/lib'

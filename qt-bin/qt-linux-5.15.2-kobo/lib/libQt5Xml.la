@@ -10,7 +10,7 @@ library_names='libQt5Xml.so.5.15.2 libQt5Xml.so.5 libQt5Xml.so'
 old_library='libQt5Xml.a'
 
 # Libraries that this one depends upon.
-dependency_libs='-L=/home/build/inkbox/compiled-binaries/qt-bin/qt-linux-5.15.2-kobo/lib -lQt5Core -lpthread'
+dependency_libs='-L=/home/build/inkbox/compiled-binaries/qt-bin/lib -lQt5Core -lpthread'
 
 # Version information for libQt5Xml.la
 current=65
@@ -25,4 +25,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='=/home/build/inkbox/compiled-binaries/qt-bin/qt-linux-5.15.2-kobo/lib'
+libdir='=/home/build/inkbox/compiled-binaries/qt-bin/lib'
