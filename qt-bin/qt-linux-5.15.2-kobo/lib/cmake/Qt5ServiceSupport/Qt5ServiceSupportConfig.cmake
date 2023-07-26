@@ -193,7 +193,7 @@ if (NOT TARGET Qt5::ServiceSupport)
 
     set(Qt5ServiceSupport_DEFINITIONS -DQT_SERVICE_SUPPORT_LIB)
     set(Qt5ServiceSupport_COMPILE_DEFINITIONS QT_SERVICE_SUPPORT_LIB)
-    set(_Qt5ServiceSupport_MODULE_DEPENDENCIES "Gui;Core")
+    set(_Qt5ServiceSupport_MODULE_DEPENDENCIES "Gui;Core;DBus")
 
 
     set(Qt5ServiceSupport_OWN_PRIVATE_INCLUDE_DIRS ${Qt5ServiceSupport_PRIVATE_INCLUDE_DIRS})
@@ -256,7 +256,7 @@ if (NOT TARGET Qt5::ServiceSupport)
         return()
     endif()
 
-    set(_Qt5ServiceSupport_LIB_DEPENDENCIES "Qt5::Gui;Qt5::Core")
+    set(_Qt5ServiceSupport_LIB_DEPENDENCIES "Qt5::Gui;Qt5::Core;Qt5::DBus")
 
 
     if(NOT Qt5_EXCLUDE_STATIC_DEPENDENCIES)

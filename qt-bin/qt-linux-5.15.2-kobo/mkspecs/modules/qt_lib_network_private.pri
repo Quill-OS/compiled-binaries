@@ -9,5 +9,6 @@ QT.network_private.uses = openssl
 QT.network_private.module_config = v2 internal_module
 QT.network_private.enabled_features = openssl-linked openssl system-proxies
 QT.network_private.disabled_features = libproxy linux-netlink netlistmgr
-QMAKE_LIBS_OPENSSL = -L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib -lssl -lcrypto
+QMAKE_INCDIR_OPENSSL = /home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot//usr/include
+QMAKE_LIBS_OPENSSL = -L/home/build/inkbox/compiled-binaries/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot//usr/lib -lssl -lcrypto
 QMAKE_LIBS_NETWORK = 
