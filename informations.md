@@ -1,4 +1,4 @@
-Latest command to compile qt:
+Latest command to compile Qt:
 ```
 ./configure --recheck-all -opensource -confirm-license -release -verbose \
  -prefix /mnt/onboard/.adds/${QTDIR} \
@@ -19,11 +19,11 @@ Latest command to compile qt:
  -libudev -evdev -libinput -xkbcommon \
  -dbus-runtime -release
 ```
-notes on compiling qt:
-- dbus for kde things
-- examples are enabled, look here: https://forum.qt.io/topic/84247/qt5linguisttoolsconfig-cmake-doesn-t-exist/7 - it doesn't work anyway, but just to be sure
-- more Qml / Qt Quick enabled
-- qt multimedia for RSSGuard
+Notes on compiling Qt:
+- DBus for KDE things
+- Examples are enabled, look here: https://forum.qt.io/topic/84247/qt5linguisttoolsconfig-cmake-doesn-t-exist/7 - it doesn't work anyway, but just to be sure
+- More QML/QtQuick stuff enabled
+- QtMultimedia for RSSGuard enabled
 
  Overall notes:
-- there is also qvirtualkeyboard compiled - I wasn't able to run it, but if someone has better skills, then maybe ~Szybet
+- There is also QVirtualKeyboard compiled - I wasn't able to run it, but if someone has better skills, then maybe ~Szybet
